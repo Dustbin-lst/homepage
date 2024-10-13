@@ -45,7 +45,8 @@ import { Icon } from "@vicons/utils";
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
 import siteLinks from "@/assets/siteLinks.json";
 import { mainStore } from "@/store";
-import { Blog, Blogger, Book, Cloud, CompactDisc, Compass, Fire, LaptopCode, Link, WeatherCloudy20Filled } from "@vicons/fa"; // 注意使用正确的类别
+import { Blog, Blogger, Book, Cloud, CompactDisc, Compass, Fire, LaptopCode, Link } from "@vicons/fa"; // 注意使用正确的类别
+import { WeatherPartlyCloudyDay24Filled } from "@vicons/fluent";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
@@ -63,7 +64,7 @@ const siteLinksList = computed(() => {
 
 // 网站链接图标
 const siteIcon = {
-  Blog,Blogger,WeatherCloudy20Filled,
+  Blog,Blogger,WeatherPartlyCloudyDay24Filled,
   Cloud,
   CompactDisc,
   Compass,
